@@ -1,28 +1,45 @@
 #color-palette {
-display: block
+    display: block
 }
+
 .color {
     display: inline-block;
     width: 100px;
     height: 100px;
     border: 1px solid black;
-    }
+}
+
 .red {
-            background-color: black;
-    }
+    background-color: black;
+}
+
 .yellow {
-        background-color: yellow;
+    background-color: yellow;
 }
+
 .blue {
-        background-color:blue;
+    background-color: blue;
 }
+
 .green {
-        background-color: green;
+    background-color: green;
 }
 
+#pixel-board {
+    display: inline-block
+    height: 100px;
+    border: 1px solid red;
+    margin:: 10px
+    }
+#l1  {
+    display: inline-block;
+    }
 
-
-
-
-
+.pixel {
+    background-color: rgb(255, 255, 255);
+    display:inline-block;
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+}
 

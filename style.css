@@ -9,19 +9,19 @@
     border: 1px solid black;
 }
 
-.red {
-    background-color: black;
+.selected {
+    background-color: black;    
 }
 
-.yellow {
+.p2 {
     background-color: yellow;
 }
 
-.blue {
+.p3 {
     background-color: blue;
 }
 
-.green {
+.p4 {
     background-color: green;
 }
 

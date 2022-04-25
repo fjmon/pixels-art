@@ -1,4 +1,5 @@
 function limpaQuadro() {
     let limpa = document.getElementsByClassName('pixel')
-    limpa = 
-}
+    limpa = background-color: rgb(255, 255, 255)
+}   
+limpaQuadro()

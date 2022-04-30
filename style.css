@@ -5,19 +5,19 @@
     border: 1px solid black;
 }
 
-.selected {
+#p1 {
     background-color: black;    
 }
 
-.p2 {
+#p2 {
     background-color: yellow;
 }
 
-.p3 {
+#p3 {
     background-color: blue;
 }
 
-.p4 {
+#p4 {
     background-color: green;
 }
 
@@ -47,5 +47,4 @@ box-shadow: 1px 1px 1px 1px black;
 #selected:enabled {
     background-color: black;
 }
-#h1 {
-}
+

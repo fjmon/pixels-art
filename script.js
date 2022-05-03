@@ -40,39 +40,3 @@ function limpaTela() {
 }
 
 limpaTela();
-
-// function quadradinhos() {
-//     const quad = document.getElementById("pixel-board")
-//     for(let i = 0; i < 25; i += 1) {
-//         const pixel = document.createElement("div")
-//         pixel.className = "pixel"
-//         quad.appendChild(pixel)
-//         pixel.addEventListener("click", pintar)
-//     }
-// }
-
-function pintar(event) {
-    const selecionado = document.querySelector(".selected")
-
-    event.target.innerText = selecionado.innerText;
-
-    if(event.target.innerText === "Preto") {
-        event.target.style.background = 
-    }
-
-
-
-
-
-}
-
-
-
-
-
-quadradinhos();
-
-
-
-
-

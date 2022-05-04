@@ -35,8 +35,32 @@ selecionar();
 function limpaTela() {
     const limpar = document.getElementById("clear-board")
     limpar.addEventListener("click", function() {
-        document.location.reload(true)
+        let pixels = document.querySelectorAll('.pixel')
+        for (let i = 0; i < 25; i += 1) {
+        pixels[i].style.backgroundColor = ""
+        }
     })
 }
 
+
 limpaTela();
+
+
+let pixels = document.querySelectorAll('.pixel')
+for (let i = 0; i < 25; i += 1) {
+    pixels[i].addEventListener('click', preencher)
+}
+function preencher(event) {
+    const cor1 = document.querySelector('.selected')
+    event.target.style.backgroundColor = window.getComputedStyle(cor1).getPropertyValue('background-color')
+    
+    console.log(window.getComputedStyle(cor1).getPropertyValue('background-color'))
+
+}
+
+
+
+
+
+
+
